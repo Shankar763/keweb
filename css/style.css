@@ -68,7 +68,7 @@ nav{
 
 .introduction_section > div {
     background: rgba(255,255,255,0.6);
-    padding: 20px;
+    padding: 15px;
     border-radius: 10px;
     max-width: 400px;
 }
@@ -242,6 +242,11 @@ a:hover {
     .logo img{
         margin-right: 20px;
         margin-bottom: 5px;
+    }
+
+    .introduction_section>div{
+        margin-left: 1%;
+        margin-right: 1%;
     }
 }
 
