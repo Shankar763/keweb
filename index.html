@@ -23,8 +23,13 @@
             </div>
         </div>
         <nav class="navigation_bar">
-
-            <div><img src="image/kibot_electronics_logo.png" height="60px" width="120px"></div>
+            
+            <div class="logo">
+                <div class="menu-icon" onclick="toggleMenu()">
+                    <img src="icon/menu.svg" alt="Menu" height="30px" width="30px">
+                </div>
+                <img src="image/kibot_ele_logo.png" height="60px" width="300px">
+            </div>
             <div class="right_nav">
                 <div><p>Services</p> <img src="icon/arrow_drop_down.svg"></div>
                 <div><p>Carrers</p> <img src="icon/arrow_drop_down.svg"></div>
@@ -46,33 +51,19 @@
                 <h2 class="product_title" style="text-align: center;">Devices</h2>
                 <div class="product-container">
                     <div class="product">
-                        <img src="image/iot_device2.png" alt="Product 1">
+                        <img src="image/tbd.png" alt="Product 1">
                         <div class="caption">Product 1</div>
                     </div>
                     <div class="product">
-                        <img src="image/iot_device.png" alt="Product 2">
+                        <img src="image/tbd.png" alt="Product 2">
                         <div class="caption">Product 2</div>
                     </div>
                     <div class="product">
-                        <img src="image/home_automation.png" alt="Product 3">
+                        <img src="image/tbd.png" alt="Product 3">
                         <div class="caption">Product 3</div>
                     </div>
-                    <div class="product">
-                        <img src="image/weighing_scale.png" alt="Product 3">
-                        <div class="caption">Product 4</div>
-                    </div>
-                    <div class="product">
-                        <img src="image/tbd.png" alt="Product 3">
-                        <div class="caption">Product 5</div>
-                    </div>
-                    <div class="product">
-                        <img src="image/tbd.png" alt="Product 3">
-                        <div class="caption">Product 6</div>
-                    </div>
-                    <div class="product">
-                        <img src="image/tbd.png" alt="Product 3">
-                        <div class="caption">Product 6</div>
-                    </div>
+               
+                    
                 </div>
             </div>
             <div class="software_product">
@@ -82,32 +73,16 @@
                         <h2 class="product_title" style="text-align: center;">Software</h2>
                         <div class="product-container">
                             <div class="product">
-                                <img src="image/iot_device2.png" alt="Product 1">
+                                <img src="image/tbd.png" alt="Product 1">
                                 <div class="caption">Product 1</div>
                             </div>
                             <div class="product">
-                                <img src="image/iot_device.png" alt="Product 2">
+                                <img src="image/tbd.png" alt="Product 2">
                                 <div class="caption">Product 2</div>
                             </div>
                             <div class="product">
-                                <img src="image/home_automation.png" alt="Product 3">
+                                <img src="image/tbd.png" alt="Product 3">
                                 <div class="caption">Product 3</div>
-                            </div>
-                            <div class="product">
-                                <img src="image/weighing_scale.png" alt="Product 3">
-                                <div class="caption">Product 4</div>
-                            </div>
-                            <div class="product">
-                                <img src="image/tbd.png" alt="Product 3">
-                                <div class="caption">Product 5</div>
-                            </div>
-                            <div class="product">
-                                <img src="image/tbd.png" alt="Product 3">
-                                <div class="caption">Product 6</div>
-                            </div>
-                            <div class="product">
-                                <img src="image/tbd.png" alt="Product 3">
-                                <div class="caption">Product 6</div>
                             </div>
                         </div>
                     </div>
@@ -155,8 +130,8 @@
                     <p><a href="mailto:kibotelectronics@gmail.com">kibotelectronics@gmail.com</a></p>
                 </div>
                 <div>
-                    <img src="icon/location_on.svg" height="20px" width="20px">
-                    <p>Bishnupur-1, Saptari</p>
+                <img src="icon/location_on.svg" height="20px" width="20px">
+                <a href="https://maps.app.goo.gl/2Sjn3DoFsfNdg7UR7"><p>Bishnupur-1, Saptari</p></a>
                 </div>
                 <div>
                     <img src="icon/Phone.svg" height="20px" width="20px">
@@ -165,5 +140,11 @@
             </div>
         </footer>
     </div>
+
+    <script>
+        function toggleMenu() {
+            document.querySelector('.right_nav').classList.toggle('active');
+        }
+        </script>
 </body>
 </html>
